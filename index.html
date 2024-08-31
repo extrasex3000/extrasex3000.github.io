@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep z herbatą chińską</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona główna</a></li>
+                <li><a href="#catalog">Katalog</a></li>
+                <li><a href="#about">O nas</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+        <h1>Sklep z herbatą chińską</h1>
+    </header>
+
+    <section id="home">
+        <h2>Witaj w naszym sklepie!</h2>
+        <p>Znajdź najwyższej jakości herbaty chińskie dostarczane prosto z serca Chin.</p>
+    </section>
+
+    <section id="catalog">
+        <h2>Katalog Herbat</h2>
+        <div class="product">
+            <img src="green-tea.jpg" alt="Zielona herbata">
+            <h3>Zielona Herbata</h3>
+            <p>Cena: 30 PLN</p>
+        </div>
+        <div class="product">
+            <img src="oolong-tea.jpg" alt="Herbata Oolong">
+            <h3>Herbata Oolong</h3>
+            <p>Cena: 40 PLN</p>
+        </div>
+        <!-- Dodaj więcej produktów tutaj -->
+    </section>
+
+    <section id="about">
+        <h2>O nas</h2>
+        <p>Nasza firma specjalizuje się w sprzedaży wysokiej jakości herbat chińskich. Znajdziesz u nas herbaty liściaste, oolong i zielone, które są ręcznie wybierane i importowane z Chin.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form id="contact-form">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sklep z herbatą chińską. Wszystkie prawa zastrzeżone.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
